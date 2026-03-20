@@ -12,8 +12,8 @@ import hashlib
 # Simple user database
 # ---------------------------
 USERS = {
-    "alice": hashlib.sha256("password1".encode()).hexdigest(),
-    "bob": hashlib.sha256("password2".encode()).hexdigest(),
+    "logan": hashlib.sha256("finance1$".encode()).hexdigest(),
+    "oliver": hashlib.sha256("Elsa2024!".encode()).hexdigest(),
 }
 
 # ---------------------------
